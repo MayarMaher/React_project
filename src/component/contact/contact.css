@@ -1,0 +1,43 @@
+.divider-custom .divider-custom-line {
+    position: relative;
+}
+
+
+.divider-custom .divider-custom-line::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0000ff;
+    width: 150px;
+    top: 1px;
+    left: 18px;
+    margin: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.divider-custom .divider-custom-line-be {
+    position: relative;
+}
+
+.divider-custom .divider-custom-line-be::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0000ff;
+    width: 150px;
+    top: 1px;
+    right: 18px;
+    margin: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+ .masthead-avatar {
+    width: 15rem ;
+}

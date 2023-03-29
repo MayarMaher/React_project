@@ -1,0 +1,24 @@
+.footer{
+    background-color: #131366;
+}
+
+.icons{
+    display: flex;
+    width: 55px;
+    height:55px ;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: auto;
+    border: 7px solid #0078ff;
+    margin-left: 10px;
+}
+.icons:hover{
+    border: 7px solid rgba(255, 255, 255, 0.566);
+    color: white;
+    background-color: #0078ff;
+}
+    .layer{
+        background-color: #0d0dec11;
+    }
